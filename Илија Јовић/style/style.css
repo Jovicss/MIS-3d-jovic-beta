@@ -1,0 +1,260 @@
+/* ''''''''''''''''''' IMPORTS '''''''''''''''''''''''''''''''''''''''''''''''''*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../imgs/cover.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+/* ------------------------------------*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+/* ------------------------------------*/
+
+
+
+
+
+/*-------------------------------- HEADER -----------------------------*/
+/* header {
+
+    background: linear-gradient(to right, #109be0 0%, #000fff 100%);
+
+    color: white;
+} */
+
+hr{
+    color: white;
+}
+
+.navigacija {
+    margin: auto;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    
+}
+.navigacija ul {
+    display: flex;
+    list-style: none;
+    gap: 3vh;
+}
+
+.navigacija ul li a {
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.navigacija ul li a:hover {
+    transform: scale(1.1);
+    border: 1px solid #099fd4;
+    padding: 10px 20px;
+    border-radius: 10%;
+    background-color: #099fd4;
+}
+
+.navigacija ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin: auto;
+}
+/* --------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------- HERO section / slider -----------------------------------------*/
+.slider-container {
+    
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 14vh;
+}
+
+.center {
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.center div .logotip i {
+    margin-bottom: 6vh ;
+    font-size: 48px;
+    color: #099fd4;
+
+}
+
+.center p {
+    margin-bottom: 6vh;
+    font-size: 20px;
+    color: white;
+    margin-top: 3vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.center  a{
+    border: 1px solid #099fd4;
+    padding: 10px 50px;
+    font-size: 15px;
+    background-color: #099fd4;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 6vh;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+.slide {
+    min-width: 100%;
+    height: 400px;
+    flex: 0 0 auto;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 13vh 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: lightblue;
+}
+/**---------------------------------------*/
+
+/* -------------- footer ---------------------*/
+.footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.kontejner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-section {
+    margin: 20px 0;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #ff5f09;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contact {
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ff5f09;
+    margin: 0 10px;
+}
+
+.copyright {
+    margin-top: 2vh;
+}
+
+/**---------------------------------------*/
+
+
+/*----------------- ABOUT HERO ------------------------------*/
+
+
+
+/*-----------------------------------------------------------*/
